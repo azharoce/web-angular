@@ -18,6 +18,7 @@ import { PrivilageComponent } from './master/privilage/privilage.component';
 import { SalesComponent } from './report/sales/sales.component';
 import { ImpressionComponent } from './report/impression/impression.component';
 import { ProductSalesComponent } from './report/product-sales/product-sales.component';
+import { ProductDetailComponent } from './master/products/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProductSalesComponent } from './report/product-sales/product-sales.comp
     PrivilageComponent,
     SalesComponent,
     ImpressionComponent,
-    ProductSalesComponent
+    ProductSalesComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule,
